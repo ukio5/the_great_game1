@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -5712395400325591005}
   - component: {fileID: -8791877118469722069}
   - component: {fileID: 8916036349234008002}
+  - component: {fileID: 478493349744011535}
   m_Layer: 0
   m_Name: bird501
   m_TagString: enemy
@@ -172,3 +173,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &478493349744011535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4925737084686381535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182f715759f887641972213687bdfa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 4925737084686381535}

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5394862452848517166}
   - component: {fileID: -6336383617272388629}
   - component: {fileID: 5838052185652771209}
+  - component: {fileID: 5312090203493794292}
   m_Layer: 0
   m_Name: bird301
   m_TagString: enemy
@@ -172,3 +173,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5312090203493794292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116461833585489131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 182f715759f887641972213687bdfa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 1116461833585489131}

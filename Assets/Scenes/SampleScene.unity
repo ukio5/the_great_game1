@@ -405,7 +405,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.03972578, y: -0.4469093}
+  m_Offset: {x: -0.03972578, y: -0.07721126}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -416,7 +416,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.775384, y: 3.1061814}
+  m_Size: {x: 1.775384, y: 2.3667853}
   m_EdgeRadius: 0
 --- !u!114 &930836507
 MonoBehaviour:
@@ -431,6 +431,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 930836500}
+--- !u!114 &930836511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930836500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c7b0aa840b558b40b9154f77810fc5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 930836500}
 --- !u!1 &969756328
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,8 +543,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemys:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 6403215708677037856, guid: e072c067e36ba3b4da005225bceaa2cf, type: 3}
+  - {fileID: 1404035076026830370, guid: 1ad71d4cffcbd9d4f9a726d5f1ff4800, type: 3}
+  - {fileID: 1116461833585489131, guid: 2727330c6c3139a4ebe6a6eccf0ef7d2, type: 3}
+  - {fileID: 3555330143102643962, guid: 6fbd6a414ecf6c341aba1ba7b188b5f6, type: 3}
+  - {fileID: 4925737084686381535, guid: 567f52ee09e14654faede16a2996d2fe, type: 3}
+  - {fileID: 1231256246271829097, guid: 6b003e0b53b564c4fa2ae9979ed2dc68, type: 3}
+  - {fileID: 8904466789679380239, guid: baf2192783a47ac42bc3d010bad854cb, type: 3}
 --- !u!114 &969756332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -619,6 +637,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7303430041946652916, guid: 5dce428bbfe1c0f41818d7bc39cef7a7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 930836507}
+    - targetCorrespondingSourceObject: {fileID: 7303430041946652916, guid: 5dce428bbfe1c0f41818d7bc39cef7a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 930836511}
   m_SourcePrefab: {fileID: 100100000, guid: 5dce428bbfe1c0f41818d7bc39cef7a7, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

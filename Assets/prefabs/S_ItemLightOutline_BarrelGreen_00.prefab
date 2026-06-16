@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 643052091737762356}
   - component: {fileID: 2436037005725943526}
   - component: {fileID: 4678719312307439593}
+  - component: {fileID: 5686787979239499497}
   m_Layer: 0
   m_Name: S_ItemLightOutline_BarrelGreen_00
   m_TagString: coin
@@ -158,3 +159,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.14, y: 0.18}
   m_EdgeRadius: 0
+--- !u!114 &5686787979239499497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4554956981812594223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55d0aef2e5769d948b271fdbcf5ec28a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coin: {fileID: 4554956981812594223}
