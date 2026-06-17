@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class remove_coin : MonoBehaviour
 {
-    public GameObject enemy;
-    Rigidbody2D enemyRb;
-    Collider2D enemyColl;
+    public GameObject player;
+    AudioSource sound;
+    Rigidbody2D playerRb;
+    Collider2D playerColl;
+    int score = 0;
     void Start()
     {
-        enemyRb = enemy.GetComponent<Rigidbody2D>();
-        enemyColl = enemy.GetComponent<Collider2D>();
+        playerRb = player.GetComponent<Rigidbody2D>();
+        playerColl = player.GetComponent<Collider2D>();
+        sound = player.GetComponent<AudioSource>();
     }
     void Update()
     {
@@ -20,6 +23,9 @@ public class remove_coin : MonoBehaviour
     {
         if (collision.CompareTag("coin"))
         {
+            sound.Play();
+            score++;
+            Debug.Log(score);
             Destroy(collision.gameObject);
         }
     }
