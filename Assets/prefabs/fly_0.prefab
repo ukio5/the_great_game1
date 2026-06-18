@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 5352286359449648278, guid: ae2c84d4e78e8a243a715eebb536dcfc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.87, y: 0.87}
@@ -187,8 +187,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 8904466789679380239}
-  player: {fileID: 0}
-  sound: {fileID: 0}
 --- !u!82 &3728056055931749676
 AudioSource:
   m_ObjectHideFlags: 0

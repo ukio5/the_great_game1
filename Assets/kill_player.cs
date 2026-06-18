@@ -27,13 +27,12 @@ public class kill_player : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             sound.Play();
-            Wait();
-            SceneManager.LoadScene(0);
+            Invoke(nameof(LoadScene0), 2f);
             Destroy(collision.gameObject);
         }
     }
-    IEnumerator Wait()
+    void LoadScene0()
     {
-        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(0);
     }
 }

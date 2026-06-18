@@ -5,15 +5,16 @@ using UnityEngine;
 public class remove_coin : MonoBehaviour
 {
     public GameObject player;
+    public static int score = 0;
     AudioSource sound;
     Rigidbody2D playerRb;
     Collider2D playerColl;
-    int score = 0;
     void Start()
     {
         playerRb = player.GetComponent<Rigidbody2D>();
         playerColl = player.GetComponent<Collider2D>();
         sound = player.GetComponent<AudioSource>();
+        score = 0;
     }
     void Update()
     {
